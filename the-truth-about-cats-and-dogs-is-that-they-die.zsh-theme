@@ -15,7 +15,7 @@ local current_dir="%B%F{red}%~%f%b"
 
 PROMPT="╭─${user_host} ${current_dir} %{$reset_color%}
 ╰─➤ ${smiley} %F{blue}[%f "
-RPROMPT='$(git_prompt_info) %F{blue}] %F{green}%D{%L:%M} %F{yellow}%D{%p}%f'
+RPROMPT='$(git_prompt_info) %F{blue}] %F{green}%D{%H:%M} %F{yellow}%D{%p}%f'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%F{yellow}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%f"
