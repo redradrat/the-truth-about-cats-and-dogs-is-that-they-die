@@ -2,5 +2,5 @@
 
 Have fun :)
 
-[![shell](scrot.png)
+![shell](scrot.png)
 
